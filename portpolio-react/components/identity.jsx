@@ -5,6 +5,7 @@ const Identity = () => {
   return (
     <>
       <section className="place-content-center">
+        {/* Profile Picture*/}
         <div className="justify-center place-content-center justify-center border-stone-200 rounded-lg border-solid">
           <Image
             src="https://www.svgrepo.com/show/503767/butterfly.svg"
@@ -15,6 +16,7 @@ const Identity = () => {
         </div>
 
         <article className="bg-gray-200 rounded-lg p-4 w-56 max-h-screen">
+          {/* Name and Position*/}
           <h2 className="text-4xl">Name</h2>
           <p className="">Position</p>
           <ul className="flex justify-around">
@@ -46,6 +48,7 @@ const Identity = () => {
               />
             </li>
           </ul>
+          {/* Contact Information*/}
           <ul className="mt-4 bg-red-300 rounded-lg">
             <li>Phone</li>
             <li>Email</li>
